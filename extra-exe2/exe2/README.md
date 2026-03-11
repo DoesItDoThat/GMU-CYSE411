@@ -167,7 +167,21 @@ Students must create similar Bug Bars for:
 
 ---
 
-# Part 4 – Deriving Likelihood and Impact
+# Part 4 – Apply DREAD
+
+Use your Bug Bar definitions and formulas to evaluate the threats identified earlier.
+
+| Threat | Damage | Reproducibility | Exploitability | Affected Users | Discoverability | Risk Score |
+|------|------|------|------|------|------|------|
+| Threat 1 | | | | | | |
+| Threat 2 | | | | | | |
+| Threat 3 | | | | | | |
+| Threat 4 | | | | | | |
+| Threat 5 | | | | | | |
+
+---
+
+# Part 5 – Deriving Likelihood and Impact
 
 Many risk models simplify risk using:
 
@@ -215,29 +229,38 @@ Students may propose alternative models.
 
 ---
 
-# Part 5 – Apply DREAD
+# Risk Classification and Treatment
 
-Use your Bug Bar definitions and formulas to evaluate the threats identified earlier.
+To evaluate each threat and determine the appropriate **risk treatment strategy**, a **risk matrix** must be used.
 
-| Threat | Damage | Reproducibility | Exploitability | Affected Users | Discoverability | Risk Score |
-|------|------|------|------|------|------|------|
-| Threat 1 | | | | | | |
-| Threat 2 | | | | | | |
-| Threat 3 | | | | | | |
-| Threat 4 | | | | | | |
-| Threat 5 | | | | | | |
+For this exercise, follow a simplified interpretation inspired by **NIST SP 800-39 (Managing Information Security Risk)**.
 
----
 
-# Risk Classification
+![Risk MATRIX based on NIST SP 800-39](risk_matrix_nist.png)
 
-| Risk Score | Classification |
-|------------|---------------|
-| 8 – 10 | High |
-| 5 – 7.9 | Medium |
-| 0 – 4.9 | Low |
 
----
+Based on the **Likelihood and Impact values** calculated in the previous task (Part 5), compute the **Risk Score** and determine the appropriate treatment strategy.
+
+Use the following treatment scheme:
+
+| Risk Level | Treatment Strategy |
+|-------------|------------------|
+| Low | Accept |
+| Low-Medium or Medium | Mitigate |
+| Medium-High | Transfer |
+| High | Avoid |
+
+Students must evaluate each identified threat and determine the appropriate **risk treatment decision**.
+
+| Threat | Impact | Likelihood | Risk Score | Risk Treatment |
+|------|------|------|------|------|
+| Threat 1 | | | | |
+| Threat 2 | | | | |
+| Threat 3 | | | | |
+| Threat 4 | | | | |
+| Threat 5 | | | | |
+
+Students must justify their treatment decisions in their submission.
 
 # Part 6 – Threat Mitigation
 
